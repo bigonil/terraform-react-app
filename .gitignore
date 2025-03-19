@@ -1,0 +1,44 @@
+# Ignore Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Ignore build files
+build/
+dist/
+
+# Ignore environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Ignore AWS Amplify auto-generated files
+amplify/.config/
+amplify/.graphqlconfig.yml
+amplify/backend/amplify-meta.json
+amplify/#current-cloud-backend/
+
+# Ignore Terraform state and logs
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+crash.log
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
